@@ -46,10 +46,10 @@ print(full_stack)
 
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 ages.sort()
-min= ages[0]
-max= ages[-1]
+min_age = ages[0]
+max_age= ages[-1]
 avg = sum(ages)/len(ages)
-print(min, max, avg)
+print(min_age, max_age, avg)
 
 #3 unpack list items
 countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
